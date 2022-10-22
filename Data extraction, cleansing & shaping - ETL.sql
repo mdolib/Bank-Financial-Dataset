@@ -240,3 +240,6 @@ DATENAME(Quarter, TransDate) AS [QuarterNo],
 'Q' + CAST(datepart(QUARTER,TransDate) AS varchar) AS [QuarterName]
 FROM dbo.Transactions
 ORDER BY TransDate ASC
+
+
+
